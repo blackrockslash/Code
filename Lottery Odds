@@ -1,0 +1,43 @@
+def MegaMillions(n):
+  for i in range(n):
+    L =[]
+    while len(L) < 5:
+      r = ZZ.random_element(1,71)
+      if r not in L:
+        L.append(r)
+    L.sort()
+    L.append((ZZ.random_elemnent(1,26)])
+    return(L)
+def Simulations(x):
+  count1 = 0
+  count2 = 0
+  count3 = 0
+  count4 = 0
+  count5 = 0
+  count6 = 0
+  L= [4,26,42,50,60,[24]]
+  for i in range(x)
+    K - MegaMillions(5)
+    m = set(K[:5])
+    n = set(L[:5])
+    o = m.intersection(n)
+    if [-1][0] == L[-1][0]:
+      if len(o) == 1:
+        if 4 in o:
+          count1 =+ 1
+      elif len(o) == 2:
+        if 4 in o and 26 in o:
+          count2 =+ 1
+      elif len(o) == 3
+        if 4 in o and 26 in o and 42 in o
+          count3 =+ 1
+      elif len(o) == 4
+        if 4 in o and 26 in o and 52 in o and 50 in o:
+          count4 =+ 1
+      elif len(o) == 5
+        if 4 in o and 26 in o and 52 in o and 50 in o and 60 in o:
+          count5 =+ 1
+
+          
+    
+    
