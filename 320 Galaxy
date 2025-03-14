@@ -18,3 +18,5 @@ d = animate( movingmoon, xmin = -12, xmax=12, ymin=-12, ymax=12)
 (a+b+c+d).show(iterations = 3)
 
 galaxy = (a+b+c+d)
+
+https://imgur.com/a/e34tL2H for image of graph
